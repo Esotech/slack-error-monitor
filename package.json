@@ -1,0 +1,30 @@
+{
+  "name": "slack-error-monitor",
+  "version": "0.1.0",
+  "description": "Monitor Logs (PHP) and send notificaitons to Slack.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "9.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esotech/slack-error-monitor"
+  },
+  "keywords": [
+    "node",
+    "slack",
+    "php"
+  ],
+  "author": "Gregory Conroy",
+  "contributors": [
+    "Gregory Conroy <greg@esotech.com> (https://esotech.com)",
+    "Alexander Conroy <alex@esotech.com> (https://geilt.com)"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^1.14.7"
+  }
+}
